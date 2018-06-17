@@ -2,7 +2,9 @@
 
 The key idea behind this library is that you can simply iterate through the `bars` array, a property of your created `MusicVisualiser` object, and this contains the heights of your conventional music visualiser bars. An example of a conventional music visualiser is shown below. (The video of which can be found [here](https://www.youtube.com/watch?v=QBXrhgg9s0c))
 
+<div align="center">
 ![Many bars are grouped together at different heights.](https://img.youtube.com/vi/QBXrhgg9s0c/0.jpg)
+<\div>
 
 To get started, add the javascript file `music-visualiser.js` to your project. Using codepen as an unoffical CDN, you can also use `<script src="https://codepen.io/jhancock532/pen/aKVmvr"></script>`.
 
