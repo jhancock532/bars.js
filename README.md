@@ -51,11 +51,11 @@ let mV = new MusicVisualiser(100,"soundElement");
 
 
 ## Loading and Playing Audio
-Either specify which input element will load your sound file,
+If the user is loading a music file from their system, specify which input element will load your sound file with
 ```js
 mV.setAudioFileInputElementID("audioInput");
 ```
-Or provide a URL to a sound file you want to load.
+Or provide a URL to the sound file you want to load.
 ```js
 mV.setAudioFileURL("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/ivan-ibarra_-_cultos-personales.ogg");
 ```
