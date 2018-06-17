@@ -1,6 +1,6 @@
 # An Effortless Music Visualiser Javascript Library
 
-The key idea behind this library is that you can simply iterate through the `bars` array, a property of your created `MusicVisualiser` object, and this contains the heights of conventional music visualiser bars.
+The key idea behind this library is that you can simply iterate through the `barHeights` array, a property of your created `MusicVisualiser` object, and this contains the heights of conventional music visualiser bars.
 
 ## Example Use of the Music Visualiser
 
@@ -16,7 +16,7 @@ audioInput.onchange = function() {                //When the user chooses a soun
 function animate() {
   mV.updateFrequencyData();                       //Update the bar heights for the current frame.
   for (let i = 0; i < mV.numberOfBars; i++){      //For each bar in the music visualisation,
-    displayBar(i, mV.bars[i]);                    //Draw that bar to the screen by some function.
+    displayBar(i, mV.barHeights[i]);              //Draw that bar to the screen by some function.
   }
   animate();
 }
