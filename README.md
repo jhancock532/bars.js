@@ -1,4 +1,4 @@
-# Effortless Music Visualiser
+# An Effortless Music Visualiser Javascript Library
 
 The key idea behind this library is that you can simply iterate through the `bars` array, a property of your created `MusicVisualiser` object, and this contains the heights of your conventional music visualiser bars. An example of a conventional music visualiser is shown below. Click the image to watch the video.
 
