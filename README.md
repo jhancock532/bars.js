@@ -1,6 +1,6 @@
 # An Effortless Music Visualiser Javascript Library
 
-The key idea behind this library is that you can simply iterate through the `bars` array, a property of your created `MusicVisualiser` object, and this contains the heights of conventional music visualiser bars. *Check out the video below to see these bars in action!*
+The key idea behind this library is that you can simply iterate through the `bars` array, a property of your created `MusicVisualiser` object, and this contains the heights of conventional music visualiser bars.
 
 ## Example Use of the Music Visualiser
 
@@ -24,7 +24,7 @@ function animate() {
 A further example, which includes drawing the bars to the screen, can be found in the examples folder under P5JS. This example can be seen on codepen [here](https://codepen.io/jhancock532/pen/qKVayb). 
 
 # Walkthrough
-You should be able to use the library to do something like this
+You should be able to use the library to do something like this, click on the picture to see the video in action.
 
 [![Watch the video](https://img.youtube.com/vi/QBXrhgg9s0c/0.jpg)](https://www.youtube.com/watch?v=QBXrhgg9s0c)
 
