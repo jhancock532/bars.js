@@ -10,23 +10,39 @@ Within your HTML, you will need an `audio` element, and if you want the user to 
 <label for="audioInput" id="audioInputLabel">Load a sound file from your computer. </label>
 <input type="file" id="audioInput"/>
 ```
+Where including `controls` allows the user to control how the music plays (pause/play and volume).
 
 ### Creating the Music Visualiser
-Where including `controls` allows the user to control how the music plays (pause/play and volume).
-Onto the javascript, to create the music visualiser object, start with
+To create the music visualiser object
 ```js
 let mV = new MusicVisualiser(100,"soundElement");
 //The first arguement is the number of bars for the resulting visualiser (This is the size of the bars array).
 //The second arguement is the id of the audio element that will playing the music you want to visualise.
 ```
 
-### Loading audio
+### Loading and Playing Audio
 ```js
-//You can specify the input element to load the sound file.
+//You can specify which input element will load your sound file.
 mV.setAudioFileInputElementID("audioInput");
 //Or you can provide a URL to a sound file you want to load.
 mV.setAudioFileURL("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/ivan-ibarra_-_cultos-personales.ogg");
+```
 
+```js
+//Whenever the user selects a sound file from the audio input element (with id of audioInput).
+audioInput.onchange = function() { 
+  //This function will set up the music visualiser, and start playing the user's selected sound file.
+  mV.loadUserSelectedSoundFile();
+};
+
+function loadDefaultSoundFile() {
+  //This function will set up the music visualiser, and start playing the sound file specified by the audio file URL.
+  mV.loadDefaultSoundFile();
+}
+
+```
+
+```js
 //Control how smooth your visualisation moves through this function, between 0 and 1.
 mV.setSmoothingTimeConstant(0.8);
 
