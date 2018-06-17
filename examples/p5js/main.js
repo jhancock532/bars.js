@@ -20,6 +20,7 @@ function loadDefaultSoundFile() {
 //Here I am using p5js as an example of how this music visualiser object can be used.
 function setup(){
   createCanvas(windowWidth, windowHeight);
+  rectMode(CORNERS);
   fill("#ff0000");
 }
 
@@ -28,8 +29,15 @@ function draw(){
   //For each frame drawn, the music frequency data is updated (this updates the bars array).
   mV.updateFrequencyData();
   //You can then iterate through each frequency bar and display it however you like.
-  //Note that the bars are normalised between 0 and 1, and hence need scaled up for display. (*200 in this case)
+  //Note that the bars are normalised between 0 and 1, and hence need scaled up for display. (*barMaxHeight in this case)
+  let barWidth = 10;
+  let barMaxHeight = 200;
+  let xOffset = 300;       //the amount the visualiser is shifted from the left edge of the screen.
+  
   for (let i = 0; i < mV.numberOfBars; i++){
-    rect(300 + i*10, 200, 10,-mV.bars[i]*200);
+    rect(xOffset + i*barWidth,                       //bottom left corner x coordinate.
+         barMaxHeight,                               //bottom left corner y coordinate.
+         xOffset + barWidth + i*barWidth,            //top right corner x coordinate.
+         barMaxHeight - mV.bars[i]*barMaxHeight);    //top right corner y coordinate.
   }
 }
