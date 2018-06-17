@@ -4,7 +4,7 @@ The key idea behind this library is that you can simply iterate through the `bar
 
 <p align="center">
 ![Many bars are grouped together at different heights.](https://img.youtube.com/vi/QBXrhgg9s0c/0.jpg)
-<\p>
+</p>
 
 To get started, add the javascript file `music-visualiser.js` to your project. Using codepen as an unoffical CDN, you can also use `<script src="https://codepen.io/jhancock532/pen/aKVmvr"></script>`.
 
