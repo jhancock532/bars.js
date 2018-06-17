@@ -12,7 +12,7 @@ Within your HTML, you will need an `audio` element, and if you want the user to 
 ```html
 <audio controls id="soundElement"></audio>
 
-<label for="audioInput" id="audioInputLabel">Load a sound file from your computer. </label>
+<label for="audioInput" id="audioInputLabel">Load a sound file from your computer.</label>
 <input type="file" id="audioInput"/>
 ```
 Where including `controls` allows the user to control how the music plays (pause/play and volume).
