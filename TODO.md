@@ -1,7 +1,8 @@
 # What's Next?
 Easy
-+ Bass, Mid Range, and Upper Range functions.
++ ~~Bass, Mid Range, and Upper Range functions.~~ *done!*
 + A three.js example of how the library can be used.
++ Create a page of all functions within the library I advise the user to use.
 
 Difficult
 + You can reset the audio elements.
