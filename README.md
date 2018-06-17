@@ -1,8 +1,15 @@
 # Effortless Music Visualiser
 
+The key idea behind this library is that you can simply iterate through the `bars` array, a property of your created `MusicVisualiser` object, and this contains the heights of your conventional music visualiser bars.
+
+So the plan is to create something that looks like 
+![this](https://img.youtube.com/vi/QBXrhgg9s0c/0.jpg)
+(The video of which can be found [here](https://www.youtube.com/watch?v=QBXrhgg9s0c))
+
 To get started, add the javascript file `music-visualiser.js` to your project. Using codepen as an unoffical CDN, you can also use `<script src="https://codepen.io/jhancock532/pen/aKVmvr"></script>`.
 
-### HTML to use with the Music Visualiser
+
+## HTML to use with the Music Visualiser
 Within your HTML, you will need an `audio` element, and if you want the user to be able to select their own audio file, an `input` element.
 ```html
 <audio controls id="soundElement"></audio>
@@ -12,7 +19,8 @@ Within your HTML, you will need an `audio` element, and if you want the user to 
 ```
 Where including `controls` allows the user to control how the music plays (pause/play and volume).
 
-### Creating the Music Visualiser
+
+## Creating the Music Visualiser
 To create the music visualiser object
 ```js
 let mV = new MusicVisualiser(100,"soundElement");
@@ -20,7 +28,8 @@ let mV = new MusicVisualiser(100,"soundElement");
 //The second arguement is the id of the audio element that will playing the music you want to visualise.
 ```
 
-### Loading and Playing Audio
+
+## Loading and Playing Audio
 Either specify which input element will load your sound file,
 ```js
 mV.setAudioFileInputElementID("audioInput");
@@ -44,7 +53,9 @@ function loadDefaultSoundFile() {
   mV.loadDefaultSoundFile();
 }
 ```
-### Controlling the Music Visualiser
+
+
+## Controlling the Music Visualiser
 ```js
 //Control how smooth your visualisation moves through this function, between 0 and 1.
 mV.setSmoothingTimeConstant(0.8);
