@@ -4,8 +4,29 @@ The key idea behind this library is that you can simply iterate through the `bar
 
 [![Watch the video](https://img.youtube.com/vi/QBXrhgg9s0c/0.jpg)](https://www.youtube.com/watch?v=QBXrhgg9s0c)
 
-To get started, add the javascript file `music-visualiser.js` to your project. Using codepen as an unoffical CDN, you can also use `<script src="https://codepen.io/jhancock532/pen/aKVmvr"></script>`.
+## Example use of the Music Visualiser
 
+```js
+let mV = new MusicVisualiser(100,"soundElement"); //Specify the number of bars you want and the audio element id.
+
+mV.setAudioFileInputElementID("audioInput");      //Specify the input id which the user loads their sound file with.
+
+audioInput.onchange = function() {                //When the user chooses a sound file,
+  mV.loadUserSelectedSoundFile();                 //Process it, and being playing it.
+};
+
+function animate() {
+  mV.updateFrequencyData();                       //Update the bar heights for the current frame.
+  for (let i = 0; i < mV.numberOfBars; i++){      //For each bar in the music visualisation,
+    displayBar(i, mV.bars[i]);                    //Draw that bar to the screen by some function.
+  }
+  animate();
+}
+```
+
+# Walkthrough
+
+To get started, add the javascript file `music-visualiser.js` to your project. Using codepen as an unoffical CDN, you can also use `<script src="https://codepen.io/jhancock532/pen/aKVmvr"></script>`.
 
 ## HTML to use with the Music Visualiser
 Within your HTML, you will need an `audio` element, and if you want the user to be able to select their own audio file, an `input` element.
