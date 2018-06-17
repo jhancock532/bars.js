@@ -10,7 +10,7 @@ let mV = new MusicVisualiser(100,"soundElement"); //Specify the number of bars y
 mV.setAudioFileInputElementID("audioInput");      //Specify the input id with which the user loads their sound file.
 
 audioInput.onchange = function() {                //When the user chooses a sound file,
-  mV.loadUserSelectedSoundFile();                 //process it, and being playing it.
+  mV.loadUserSelectedSoundFile();                 //process it, and begin playing it.
 };
 
 function animate() {
