@@ -1,6 +1,6 @@
 # An Effortless Music Visualiser Javascript Library
 
-The key idea behind this library is that you can simply iterate through the `barHeights` array, a property of your created `MusicVisualiser` object, and this contains the heights of conventional music visualiser bars. No messing with mathematics, just specify the audio element, load the file into it, and start animating.
+The idea behind this library is that you iterate through the `barHeights` array, (a property of the `MusicVisualiser` object) which contains the heights of conventional music visualiser bars. No messing with mathematics, just specify the audio element, load the file into it, and start animating.
 
 ## Example Use of the Music Visualiser
 
@@ -82,4 +82,4 @@ mV.setSmoothingTimeConstant(0.8);
 //Set the size of the bars array.
 mV.setNumberOfBars(200);
 ```
-More to come.
+More to come - this project is a work in progress. See the TODO for details.
