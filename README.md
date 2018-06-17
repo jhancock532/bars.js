@@ -82,3 +82,4 @@ mV.setSmoothingTimeConstant(0.8);
 //Set the size of the bars array.
 mV.setNumberOfBars(200);
 ```
+More to come.
