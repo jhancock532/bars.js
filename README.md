@@ -23,6 +23,7 @@ function animate() {
   animate();
 }
 ```
+A further example, which includes drawing the bars to the screen, can be found in the examples folder under P5JS. This example can be seen on codepen [here](https://codepen.io/jhancock532/pen/qKVayb). 
 
 # Walkthrough
 
@@ -54,7 +55,7 @@ Either specify which input element will load your sound file,
 mV.setAudioFileInputElementID("audioInput");
 ```
 Or provide a URL to a sound file you want to load.
-```
+```js
 mV.setAudioFileURL("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/ivan-ibarra_-_cultos-personales.ogg");
 ```
 When the user selects a file, the following function will start playing the sound file automatically.
@@ -73,13 +74,10 @@ function loadDefaultSoundFile() {
 }
 ```
 
-
 ## Controlling the Music Visualiser
 ```js
 //Control how smooth your visualisation moves through this function, between 0 and 1.
 mV.setSmoothingTimeConstant(0.8);
-
+//Set the size of the bars array.
 mV.setNumberOfBars(200);
 ```
-
-work in progress. The above is probably a detailed description that will be replaced with something simpler.
