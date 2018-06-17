@@ -60,3 +60,5 @@ mV.setSmoothingTimeConstant(0.8);
 
 mV.setNumberOfBars(200);
 ```
+
+work in progress. The above is probably a detailed description that will be replaced with something simpler.
