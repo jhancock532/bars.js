@@ -1,6 +1,8 @@
-# An Effortless Music Visualiser Javascript Library
+# A Music Visualiser Javascript Library
 
-This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+music-visualiser.js is the original version
+bars.js is the new version. 
+I'll sort out this mess sharpish.
 
 The idea behind this library is that you iterate through the `barHeights` array, (a property of the `MusicVisualiser` object) which contains the heights of conventional music visualiser bars. No messing with mathematics, just specify the audio element, load the file into it, and start animating.
 
@@ -84,4 +86,7 @@ mV.setSmoothingTimeConstant(0.8);
 //Set the size of the bars array.
 mV.setNumberOfBars(200);
 ```
-More to come - this project is a work in progress. See the TODO for details.
+
+# License
+
+This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
