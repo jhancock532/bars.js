@@ -2,4 +2,4 @@
 
 Make sure you have the library included.
 
-Work in progress.
+Yeah, check out the codepen for troubleshooting or fire me a message - https://codepen.io/jhancock532/pen/YvZNzN
