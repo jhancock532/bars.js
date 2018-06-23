@@ -1,7 +1,7 @@
 # Properties you should access
 
-`barHeights` - The height of the music visualiser bars. Double between 0 and 1.
-`beat` - States whether the current frame is identified as a beat or not. Boolean.
+* `barHeights` - The height of the music visualiser bars. Double between 0 and 1.
+* `beat` - States whether the current frame is identified as a beat or not. Boolean.
 
 # Functions to Load and Play Music
 
