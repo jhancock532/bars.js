@@ -1,9 +1,5 @@
 # A Music Visualiser Javascript Library
 
-music-visualiser.js is the original version
-bars.js is the new version. 
-I'll sort out this mess sharpish.
-
 The idea behind this library is that you iterate through the `barHeights` array, (a property of the `MusicVisualiser` object) which contains the heights of conventional music visualiser bars. No messing with mathematics, just specify the audio element, load the file into it, and start animating.
 
 ## Example Use of the Music Visualiser
@@ -32,7 +28,7 @@ You should be able to use the library to do something like this, click on the pi
 
 [![Watch the video](https://img.youtube.com/vi/QBXrhgg9s0c/0.jpg)](https://www.youtube.com/watch?v=QBXrhgg9s0c)
 
-To get started, add the javascript file `music-visualiser.js` to your project. Using codepen as an unoffical CDN, you can also use `<script src="https://codepen.io/jhancock532/pen/aKVmvr"></script>`.
+To get started, add the javascript file `bars.js` to your project. Using codepen as an unoffical CDN, you can also use `<script src="https://codepen.io/jhancock532/pen/mKKqzp"></script>`.
 
 ## HTML to use with the Music Visualiser
 Within your HTML, you will need an `audio` element, and if you want the user to be able to select their own audio file, an `input` element.
@@ -87,6 +83,4 @@ mV.setSmoothingTimeConstant(0.8);
 mV.setNumberOfBars(200);
 ```
 
-# License
-
-This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+All functions can be found in the DOCS file. 
