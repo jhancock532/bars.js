@@ -52,7 +52,9 @@ function loadDefaultSoundFile() {
 * `setFFTSize(fftSize)` - Please set it to one of these values [128, 256, 512, 1024, 2048]
 * `setSmoothingTimeConstant(smoothingConstant) - Determines how smooth the bar heights change. 0.0 -> 1.0 (strict!)
  
+ # Functions for the Waiting Animation
  
+ * `setWaitingAnimation(boolean)` - If you want an animation where there is no music (sine wave), set this to true. Else, false.
  
  
  
