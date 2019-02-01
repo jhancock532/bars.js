@@ -29,3 +29,5 @@ function animate() {
   }
 }
 ```
+
+A live demo with interactive code can be found on [CodePen](https://codepen.io/jhancock532/pen/PVZoWO).
