@@ -16,7 +16,7 @@ The `MusicVisualiser` object has a property called `bars` - this is an array of 
 let mV = new MusicVisualiser();
 
 mV.audioPlayer = "audioElementId"; // Specifying where the audio is coming from.
-mV.soundFileURL = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/ivan-ibarra_-_cultos-personales.ogg";
+mV.soundFileURL = "music.ogg";
 mV.numberOfBars = 128;
 
 function playSoundFile() {
@@ -25,7 +25,6 @@ function playSoundFile() {
 
 // Any function that is called every frame.
 function animate() { 
-  
   mV.updateVisualiser(); // Updates the contents of the bars array.
   
   for (let i = 0; i < mV.bars.length; i++) {
