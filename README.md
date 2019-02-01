@@ -2,7 +2,7 @@
 
 A lightweight JavaScript library which handles all the audio processing for a web music visualiser.
 
-It's called `bars.js` as the library converts audio into its frequency spectrum representation: This frequency spectrum representation is sampled at even intervals, which is then displayed as bars in many music visualisers.
+It's called `bars.js` as the library converts audio into its frequency spectrum representation: This frequency spectrum representation is sampled at even intervals, which is displayed as bars in many music visualisers.
 
 The `MusicVisualiser` object has a property called `bars` - this is an array of bar heights, which is used as a source to create music visualisation. 
 
