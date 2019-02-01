@@ -8,14 +8,16 @@ The `MusicVisualiser` object has a property called `bars` - this is an array of 
 
 **Full documentation of the library can be found on the [wiki](https://github.com/jhancock532/bars.js/wiki) for this GitHub repository.**
 
-* [[Best Practice]]
-* [[Control How the Audio is Processed]]
-* [[Getting Data from the Music Visualiser]]
-* [[Pause and Play the Audio]]
-* [[Setting the Audio Element, File Input Element and Audio URL]]
-* [[Letting the User Upload Their Own Sound File]]
+It includes the following sections:
 
-## Example Use
+* [Best Practice](https://github.com/jhancock532/bars.js/wiki/Best-Practice)
+* [Control How the Audio is Processed](https://github.com/jhancock532/bars.js/wiki/Control-How-the-Audio-is-Processed)
+* [Getting Data from the Music Visualiser](https://github.com/jhancock532/bars.js/wiki/Getting-Data-from-the-Music-Visualiser)
+* [Letting the User Upload Their Own Sound File](https://github.com/jhancock532/bars.js/wiki/Letting-the-User-Upload-Their-Own-Sound-File)
+* [Pause and Play the Audio](https://github.com/jhancock532/bars.js/wiki/Pause-and-Play-the-Audio)
+* [Setting the Audio Element, File Input Element and Audio URL](https://github.com/jhancock532/bars.js/wiki/Setting-the-Audio-Element%2C-File-Input-Element-and-Audio-URL)
+
+## Example Use of bars.js
 HTML 
 ```html
 <audio controls id="audioElementId"></audio>
