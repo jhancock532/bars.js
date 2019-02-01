@@ -6,7 +6,7 @@ It's called `bars.js` as the library converts audio into its frequency spectrum 
 
 The `MusicVisualiser` object has a property called `bars` - this is an array of bar heights, which is the primary data source for creating a music visualisation. 
 
-**Full documentation of the library can be found on the [wiki](https://github.com/jhancock532/bars.js/wiki) for this GitHub repository.**
+**Full documentation of the library can be found on the [wiki](https://github.com/jhancock532/bars.js/wiki) of this GitHub repository.**
 
 It includes the following sections:
 
