@@ -4,14 +4,23 @@ A lightweight JavaScript library which handles all the audio processing for a we
 
 It's called `bars.js` as the library converts audio into its frequency spectrum representation: This frequency spectrum representation is sampled at even intervals, which is displayed as bars in many music visualisers.
 
-The `MusicVisualiser` object has a property called `bars` - this is an array of bar heights, which is used as a source to create music visualisation. 
+The `MusicVisualiser` object has a property called `bars` - this is an array of bar heights, which is the primary data source for creating a music visualisation. 
+
+**Full documentation of the library can be found on the [wiki](https://github.com/jhancock532/bars.js/wiki) for this GitHub repository.**
+
+* [[Best Practice]]
+* [[Control How the Audio is Processed]]
+* [[Getting Data from the Music Visualiser]]
+* [[Pause and Play the Audio]]
+* [[Setting the Audio Element, File Input Element and Audio URL]]
+* [[Letting the User Upload Their Own Sound File]]
 
 ## Example Use
-
+HTML 
 ```html
 <audio controls id="audioElementId"></audio>
 ```
-
+JavaScript
 ```js
 let mV = new MusicVisualiser();
 
